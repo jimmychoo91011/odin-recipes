@@ -1,49 +1,67 @@
 
-* {
-    background-color: black;
-    color:white;
-}
+
 
 h1,h3 {
-    font-family:Cascadia Mono;
-    color:rgb(228, 23, 177)
+    font-family:IBM Plex Mono;
 }
-
-.header_body {
-    display:block;
-    border-color:white;
-    border-style:dashed;
-    padding:15px;
-    margin:10px;
-}
-
-img {width:50%;
-    height:auto;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    border-style:dashed;
-    padding: 40px;
-    border-color: white}
 
 h1 {
     text-align:center;
     font-weight:bold;
     font-size:48px;
+    color: black;
+    margin: 70px
     
 }
+.header_body {
+    padding:15px;
+    margin:10px;
+    flex: 1 1 auto;
+}
 
+.description {
+    color: white
 
-
-li,p {
-    font-family:IBM Plex Sans;
-    text-align:left;
+}
+.image_complete {
+    display:flex;
+    align-items:center;
+    margin-left:auto; /* centers the black bloc */
+    margin-right:auto;/* centers the black bloc */
+    margin-bottom: 100px;
+    background-color:black;
+    color: red;
+    border-radius: 25px;
+    width: 78%;
+    height: auto;
+    justify-content: center;
+}
+.real_body{
+    display:flex;
+    width:1200px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(231, 4, 4);
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 21px;
+    border-radius: 25px;
     color:white
 }
 
 
+img {width:40%;
+    height:auto;
+    padding: 10px;
+    margin-top: -75px;
+    margin-bottom: -75px;
+}
 
-.small-header{
-    text-align:left;
-    font-size:22px;
+
+li,p {
+    font-family:Georgia;
+}
+
+li {
+    color:white
 }
